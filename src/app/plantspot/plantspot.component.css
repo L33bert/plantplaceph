@@ -1,0 +1,46 @@
+body {
+    width: 100%;
+    height:auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: white;
+}
+
+#headerText {
+    color: rgb(51,51,51);
+    font-size:42px;
+    font-weight:bold;
+}
+
+.index-photo {
+    width: 160px;
+    height:160px;
+    border-top-left-radius:5%;
+    border-top-right-radius:5%;
+}
+
+.index-button {
+    overflow:hidden;
+    /* margin-top:10px; */
+    font-size: 12px;
+    background-color:rgba(137, 194, 194, 0.247);
+    border-top-left-radius:0%;
+    border-top-right-radius:0%;
+    color:rgb(192, 213, 223);
+    text-transform: uppercase;
+}
+
+.index-button:focus {
+    outline:none;
+ }
+
+.index-card {
+    border-radius:5%;
+    border:none;
+    cursor:pointer;
+    background-color:black;
+}
+
+.index-card:hover {
+    opacity:90%;
+}

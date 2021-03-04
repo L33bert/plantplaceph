@@ -1,0 +1,68 @@
+body {
+    width: 100%;
+    padding-top: 10%;
+}
+
+#headerLogo {
+    background-image:url('src/assets/pp.jpg');
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 0%;
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* #toolbar {
+    z-index: 2;
+    position : fixed;
+} */
+
+#bottom-border {
+    width:100%;
+    height:12%;
+    background-color:gray;
+}
+
+#headerLogo:hover {
+    cursor:pointer;
+}
+
+#headerLogo:focus {
+    outline:none;
+}
+
+.nav {
+    margin-left: 180px;
+}
+
+.nav ul {
+    margin: 0px;
+}
+.nav ul li:hover{
+    border-bottom: 2px solid rgb(6, 143, 143);
+}
+
+.nav ul li:focus {
+    outline:none;
+ }
+
+.nav ul li:hover a{
+    /* color: rgb(50, 91, 99); */
+    color: rgb(6, 143, 143);
+}
+
+.nav ul li{
+    margin-left: 10px;
+    padding: 46px;
+    display: inline;
+    font-size: 16px;
+    font-weight:lighter;
+    cursor:pointer;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+}
