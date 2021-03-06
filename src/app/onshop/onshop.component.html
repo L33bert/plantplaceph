@@ -6,7 +6,11 @@
                 <span id="headerText">Plant Place Store</span>
             </div>
             <div class="col-sm-3">
-                <mat-form-field appearance="fill" class="pull-right">
+              <div class="pull-right" style="margin-top:10px;display:flex">
+                <mat-icon style="color:gray;">info</mat-icon>
+                <small>Use the Item code to buy item(s).</small>
+              </div>
+                <!-- <mat-form-field appearance="fill" class="pull-right">
                 <mat-label>Select Category</mat-label>
                 <mat-select>
                     <mat-option value="OP">Ornamental Plants</mat-option>
@@ -15,7 +19,7 @@
                     <mat-option value="HP">Hanging Plants</mat-option>
                     <mat-option value="HS">Herbs & Spices</mat-option>
                 </mat-select>
-                </mat-form-field>
+                </mat-form-field> -->
             </div>
         </div>
         <hr><br>
@@ -41,21 +45,61 @@
                           <td><mat-icon class="c-default" matTooltip="Price" aria-hidden="false" aria-label="Example home icon">local_offer</mat-icon></td>
                           <td><span> <h6><b>450.00</b></h6> </span></td>
                         </tr>
+                        <tr>
+                          <td><span>Benefits:</span></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td><mat-icon class="c-success">done</mat-icon></td>
+                          <td colspan="2"><span>Natural air cooler.</span></td>
+                        </tr>
+                        <tr>
+                          <td><mat-icon class="c-success">done</mat-icon></td>
+                          <td colspan="2"><span>Improves air quality.</span></td>
+                        </tr>
+                        <tr>
+                          <td><mat-icon class="c-success">done</mat-icon></td>
+                          <td colspan="2"><span>Ideal Houseplant.</span></td>
+                        </tr>
+                        <tr>
+                          <td><mat-icon class="c-success">done</mat-icon></td>
+                          <td colspan="2"><span>Safe for pets.</span></td>
+                        </tr>
                       </table>
-                          
-                      <p>
-                        Palmera is ideal house plant it can be indoors or outdoors. Also, It is a natural air cooler for your home.
-                      </p>
                     </mat-card-content>
+                    <mat-accordion style="border:none;box-shadow: none;">
+                      <mat-expansion-panel>
+                      <mat-expansion-panel-header>
+                        <mat-panel-title>
+                        </mat-panel-title>
+                        <mat-panel-description>
+                          <mat-icon style="color:gray;margin-right:5px;">local_florist</mat-icon> 
+                          <span>Plant Care Tips!</span>
+                        </mat-panel-description>
+                      </mat-expansion-panel-header>
+                      <div style="display:flex">
+                        <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                        <span style="font-weight:bold">SOIL</span>
+                      </div>
+                        This plant can grow in different kinds of soil but make sure you will use a well drained soil.<br><hr>
+                        <div style="display:flex">
+                          <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                          <span style="font-weight:bold">SUNLIGHT</span>
+                        </div>
+                        Palms can resists in full sunlight but too much exposure might cause drying of leaves. It is 
+                        recommended to put it in indirect sunlight or bright sunlight to maintain its fresh leaves.<br><hr>
+                        <div style="display:flex">
+                          <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                          <span style="font-weight:bold">WATER</span>
+                        </div>
+                        Water only when the topmost soil is dry, Also do misting of water as needed to remove dirts.
+                    </mat-expansion-panel>
+                  </mat-accordion>
                     <!-- <mat-card-actions>
-
-
-
                       <button mat-button>LIKE</button>
                       <button mat-button>SHARE</button>
                     </mat-card-actions> -->
                   </mat-card>
-                  
             </div>
             <div class="col-sm-4">
                 <mat-card class="example-card">
@@ -78,13 +122,55 @@
                           <td><mat-icon class="c-default" matTooltip="Price" aria-hidden="false" aria-label="Example home icon">local_offer</mat-icon></td>
                           <td><span> <h6><b>600.00</b></h6> </span></td>
                         </tr>
+                        <tr>
+                          <td><span>Benefits:</span></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td><mat-icon class="c-success">done</mat-icon></td>
+                          <td colspan="2"><span>Natural air purifier.</span></td>
+                        </tr>
+                        <tr>
+                          <td><mat-icon class="c-success">done</mat-icon></td>
+                          <td colspan="2"><span>Improves air quality.</span></td>
+                        </tr>
+                        <tr>
+                          <td><mat-icon class="c-success">done</mat-icon></td>
+                          <td colspan="2"><span>Brings fresh ambiance to your home.</span></td>
+                        </tr>
+                        <tr>
+                          <td><mat-icon class="c-success">done</mat-icon></td>
+                          <td colspan="2"><span>Safe for pets.</span></td>
+                        </tr>
                       </table>
-
-                      <p>
-                        Peruvian fern is ideal for tropical inspired garden, It can grow 2 meters or more. You can hang
-                        to your window or place it with indirect/bright sunlight of your home.
-                      </p>
                     </mat-card-content>
+                    <mat-accordion style="border:none;box-shadow: none;">
+                      <mat-expansion-panel>
+                      <mat-expansion-panel-header>
+                        <mat-panel-title>
+                        </mat-panel-title>
+                        <mat-panel-description>
+                          <mat-icon style="color:gray;margin-right:5px;">local_florist</mat-icon>
+                          <span>Plant Care Tips!</span>
+                        </mat-panel-description>
+                      </mat-expansion-panel-header>
+                      <div style="display:flex">
+                        <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                        <span style="font-weight:bold">SOIL</span>
+                      </div>
+                        Recommended to use Coco peat with Vermicast as soil mix for different kinds of ferns.<br><hr>
+                        <div style="display:flex">
+                          <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                          <span style="font-weight:bold">SUNLIGHT</span>
+                        </div>
+                        Ideal sunlight exposure for different kinds of ferns is between 07:00 AM to 10:00 AM to grow healthier with lush green leaves.<br><hr>
+                        <div style="display:flex">
+                          <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                          <span style="font-weight:bold">WATER</span>
+                        </div>
+                        Water at least once a week, Also do misting of water as needed to remove dirts.
+                    </mat-expansion-panel>
+                  </mat-accordion>
                     <!-- <mat-card-actions>
                       <button mat-button>LIKE</button>
                       <button mat-button>SHARE</button>
@@ -112,12 +198,56 @@
                           <td><mat-icon class="c-default" matTooltip="Price" aria-hidden="false" aria-label="Example home icon">local_offer</mat-icon></td>
                           <td><span> <h6><b>350.00</b></h6> </span></td>
                         </tr>
+                        <tr>
+                          <td><span>Benefits:</span></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td><mat-icon class="c-success">done</mat-icon></td>
+                          <td colspan="2"><span>Natural air cooler.</span></td>
+                        </tr>
+                        <tr>
+                          <td><mat-icon class="c-success">done</mat-icon></td>
+                          <td colspan="2"><span>Improves air quality.</span></td>
+                        </tr>
+                        <tr>
+                          <td><mat-icon class="c-success">done</mat-icon></td>
+                          <td colspan="2"><span>Ideal Houseplant.</span></td>
+                        </tr>
+                        <tr>
+                          <td><mat-icon class="c-success">done</mat-icon></td>
+                          <td colspan="2"><span>Safe for pets.</span></td>
+                        </tr>
                       </table>
-
-                      <p>
-                        Recommended for Outdoors, Ideal Ornamental plant at home! because of its beautiful golden leaves.
-                      </p>
                     </mat-card-content>
+                    <mat-accordion style="border:none;box-shadow: none;">
+                      <mat-expansion-panel>
+                      <mat-expansion-panel-header>
+                        <mat-panel-title>
+                        </mat-panel-title>
+                        <mat-panel-description>
+                          <mat-icon style="color:gray;margin-right:5px;">local_florist</mat-icon>
+                          <span>Plant Care Tips!</span>
+                        </mat-panel-description>
+                      </mat-expansion-panel-header>
+                      <div style="display:flex">
+                        <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                        <span style="font-weight:bold">SOIL</span>
+                      </div>
+                        This plant can grow in different kinds of soil but make sure you will use a well drained soil.<br><hr>
+                        <div style="display:flex">
+                          <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                          <span style="font-weight:bold">SUNLIGHT</span>
+                        </div>
+                        Palms can resists in full sunlight but too much exposure might cause drying of leaves. It is 
+                        recommended to put it in indirect sunlight or bright sunlight to maintain its fresh leaves.<br><hr>
+                        <div style="display:flex">
+                          <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                          <span style="font-weight:bold">WATER</span>
+                        </div>
+                        Water only when the topmost soil is dry, Also do misting of water as needed to remove dirts.
+                    </mat-expansion-panel>
+                  </mat-accordion>
                     <!-- <mat-card-actions>
                       <button mat-button>LIKE</button>
                       <button mat-button>SHARE</button>
@@ -147,14 +277,56 @@
                         <td><mat-icon class="c-default" matTooltip="Price" aria-hidden="false" aria-label="Example home icon">local_offer</mat-icon></td>
                         <td><span> <h6><b>350.00</b></h6> </span></td>
                       </tr>
+                      <tr>
+                        <td><span>Benefits:</span></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td><mat-icon class="c-success">done</mat-icon></td>
+                        <td colspan="2"><span>Natural air cooler.</span></td>
+                      </tr>
+                      <tr>
+                        <td><mat-icon class="c-success">done</mat-icon></td>
+                        <td colspan="2"><span>Improves air quality.</span></td>
+                      </tr>
+                      <tr>
+                        <td><mat-icon class="c-success">done</mat-icon></td>
+                        <td colspan="2"><span>Ideal Houseplant.</span></td>
+                      </tr>
+                      <tr>
+                        <td><mat-icon class="c-success">done</mat-icon></td>
+                        <td colspan="2"><span>Safe for pets.</span></td>
+                      </tr>
                     </table>
-
-                    <p>
-                      The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-                      A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-                      bred for hunting.
-                    </p>
                   </mat-card-content>
+                  <mat-accordion style="border:none;box-shadow: none;">
+                    <mat-expansion-panel>
+                    <mat-expansion-panel-header>
+                      <mat-panel-title>
+                      </mat-panel-title>
+                      <mat-panel-description>
+                        <mat-icon style="color:gray;margin-right:5px;">local_florist</mat-icon>
+                        <span>Plant Care Tips!</span>
+                      </mat-panel-description>
+                    </mat-expansion-panel-header>
+                    <div style="display:flex">
+                      <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                      <span style="font-weight:bold">SOIL</span>
+                    </div>
+                      This plant can grow in different kinds of soil but make sure you will use a well drained soil.<br><hr>
+                      <div style="display:flex">
+                        <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                        <span style="font-weight:bold">SUNLIGHT</span>
+                      </div>
+                      Palms can resists in full sunlight but too much exposure might cause drying of leaves. It is 
+                      recommended to put it in indirect sunlight or bright sunlight to maintain its fresh leaves.<br><hr>
+                      <div style="display:flex">
+                        <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                        <span style="font-weight:bold">WATER</span>
+                      </div>
+                      Water only when the topmost soil is dry, Also do misting of water as needed to remove dirts.
+                  </mat-expansion-panel>
+                </mat-accordion>
                   <!-- <mat-card-actions>
                     <button mat-button>LIKE</button>
                     <button mat-button>SHARE</button>
@@ -176,21 +348,64 @@
                         <td width="10%"><mat-icon class="c-default" matTooltip="Item Code" aria-hidden="false" aria-label="Example home icon">local_mall</mat-icon></td>
                         <td width="65%"><span> <h6><b>CRINUM002</b></h6> </span></td>
                         <td width="35%">
-                          <p><span class="badge-stock">3 Items available</span></p>
+                          <p><span class="badge-stock">3⁺ Items available</span></p>
                         </td>
                       </tr>
                       <tr>
                         <td><mat-icon class="c-default" matTooltip="Price" aria-hidden="false" aria-label="Example home icon">local_offer</mat-icon></td>
                         <td><span> <h6><b>250.00</b></h6> </span></td>
                       </tr>
+                      <tr>
+                        <td><span>Benefits:</span></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td><mat-icon class="c-success">done</mat-icon></td>
+                        <td colspan="2"><span>Flowering plant.</span></td>
+                      </tr>
+                      <tr>
+                        <td><mat-icon class="c-success">done</mat-icon></td>
+                        <td colspan="2"><span>Plant for fence.</span></td>
+                      </tr>
+                      <tr>
+                        <td><mat-icon class="c-success">done</mat-icon></td>
+                        <td colspan="2"><span>For lanscaping use.</span></td>
+                      </tr>
+                      <tr>
+                        <td><mat-icon class="c-error">clear</mat-icon></td>
+                        <td colspan="2"><span>Keep away from pets.</span></td>
+                      </tr>
                     </table>
-
-                    <p>
-                      The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-                      A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-                      bred for hunting.
-                    </p>
                   </mat-card-content>
+                  <mat-accordion style="border:none;box-shadow: none;">
+                    <mat-expansion-panel>
+                    <mat-expansion-panel-header>
+                      <mat-panel-title>
+                      </mat-panel-title>
+                      <mat-panel-description>
+                        <mat-icon style="color:gray;margin-right:5px;">local_florist</mat-icon>
+                        <span>Plant Care Tips!</span>
+                      </mat-panel-description>
+                    </mat-expansion-panel-header>
+                    <div style="display:flex">
+                      <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                      <span style="font-weight:bold">SOIL</span>
+                    </div>
+                      This plant can grow in different kinds of soil but make sure you will use a well drained soil.<br><hr>
+                      <div style="display:flex">
+                        <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                        <span style="font-weight:bold">SUNLIGHT</span>
+                      </div>
+                      Golden Crinum lily wants full sunlight to turns its leaves into golden yellow. However, 
+                      Brings it indoors will maintain its fresh green leaves.
+                      <br><hr>
+                      <div style="display:flex">
+                        <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                        <span style="font-weight:bold">WATER</span>
+                      </div>
+                      Water only when the topmost soil is dry, Also do misting of water as needed to remove dirts.
+                  </mat-expansion-panel>
+                </mat-accordion>
                   <!-- <mat-card-actions>
                     <button mat-button>LIKE</button>
                     <button mat-button>SHARE</button>
@@ -211,21 +426,64 @@
                         <td width="10%"><mat-icon class="c-default" matTooltip="Item Code" aria-hidden="false" aria-label="Example home icon">local_mall</mat-icon></td>
                         <td width="65%"><span> <h6><b>CRINUM001</b></h6> </span></td>
                         <td width="35%">
-                          <p><span class="badge-stock">4 Items available</span></p>
+                          <p><span class="badge-stock">3⁺ Items available</span></p>
                         </td>
                       </tr>
                       <tr>
                         <td><mat-icon class="c-default" matTooltip="Price" aria-hidden="false" aria-label="Example home icon">local_offer</mat-icon></td>
                         <td><span> <h6><b>280.00</b></h6> </span></td>
                       </tr>
+                      <tr>
+                        <td><span>Benefits:</span></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td><mat-icon class="c-success">done</mat-icon></td>
+                        <td colspan="2"><span>Flowering plant.</span></td>
+                      </tr>
+                      <tr>
+                        <td><mat-icon class="c-success">done</mat-icon></td>
+                        <td colspan="2"><span>Plant for fence.</span></td>
+                      </tr>
+                      <tr>
+                        <td><mat-icon class="c-success">done</mat-icon></td>
+                        <td colspan="2"><span>For lanscaping use.</span></td>
+                      </tr>
+                      <tr>
+                        <td><mat-icon class="c-error">clear</mat-icon></td>
+                        <td colspan="2"><span>Keep away from pets.</span></td>
+                      </tr>
                     </table>
-                    
-                    <p>
-                      The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-                      A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-                      bred for hunting.
-                    </p>
                   </mat-card-content>
+                  <mat-accordion style="border:none;box-shadow: none;">
+                    <mat-expansion-panel>
+                    <mat-expansion-panel-header>
+                      <mat-panel-title>
+                      </mat-panel-title>
+                      <mat-panel-description>
+                        <mat-icon style="color:gray;margin-right:5px;">local_florist</mat-icon>
+                        <span>Plant Care Tips!</span>
+                      </mat-panel-description>
+                    </mat-expansion-panel-header>
+                    <div style="display:flex">
+                      <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                      <span style="font-weight:bold">SOIL</span>
+                    </div>
+                      This plant can grow in different kinds of soil but make sure you will use a well drained soil.<br><hr>
+                      <div style="display:flex">
+                        <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                        <span style="font-weight:bold">SUNLIGHT</span>
+                      </div>
+                      Golden Crinum lily wants full sunlight to turns its leaves into golden yellow. However, 
+                      Brings it indoors will maintain its fresh green leaves.
+                      <br><hr>
+                      <div style="display:flex">
+                        <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                        <span style="font-weight:bold">WATER</span>
+                      </div>
+                      Water only when the topmost soil is dry, Also do misting of water as needed to remove dirts.
+                  </mat-expansion-panel>
+                </mat-accordion>
                   <!-- <mat-card-actions>
                     <button mat-button>LIKE</button>
                     <button mat-button>SHARE</button>
@@ -234,6 +492,84 @@
           </div>
       </div>
       <div class="row p-t-30">
+          <div class="col-sm-4">
+            <mat-card class="example-card">
+                <mat-card-header>
+                  <!-- <div mat-card-avatar class="example-header-image"></div> -->
+                  <mat-card-title><h4>Golden Crinum Lily</h4></mat-card-title>
+                  <mat-card-subtitle><h6>Ornamental Plant</h6></mat-card-subtitle>
+                </mat-card-header>
+                <img mat-card-image src="assets/on-the-shop/crinum003.jpg">
+                <mat-card-content>
+                  <table>
+                    <tr>
+                      <td width="10%"><mat-icon class="c-default" matTooltip="Item Code" aria-hidden="false" aria-label="Example home icon">local_mall</mat-icon></td>
+                      <td width="65%"><span> <h6><b>CRINUM003</b></h6> </span></td>
+                      <td width="35%">
+                        <p><span class="badge-stock">30⁺ Items available</span></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><mat-icon class="c-default" matTooltip="Price" aria-hidden="false" aria-label="Example home icon">local_offer</mat-icon></td>
+                      <td><span> <h6><b>50.00</b></h6> </span></td>
+                    </tr>
+                    <tr>
+                      <td><span>Benefits:</span></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td><mat-icon class="c-success">done</mat-icon></td>
+                      <td colspan="2"><span>Flowering plant.</span></td>
+                    </tr>
+                    <tr>
+                      <td><mat-icon class="c-success">done</mat-icon></td>
+                      <td colspan="2"><span>Plant for fence.</span></td>
+                    </tr>
+                    <tr>
+                      <td><mat-icon class="c-success">done</mat-icon></td>
+                      <td colspan="2"><span>For lanscaping use.</span></td>
+                    </tr>
+                    <tr>
+                      <td><mat-icon class="c-error">clear</mat-icon></td>
+                      <td colspan="2"><span>Keep away from pets.</span></td>
+                    </tr>
+                  </table>
+                </mat-card-content>
+                <mat-accordion style="border:none;box-shadow: none;">
+                  <mat-expansion-panel>
+                  <mat-expansion-panel-header>
+                    <mat-panel-title>
+                    </mat-panel-title>
+                    <mat-panel-description>
+                      <mat-icon style="color:gray;margin-right:5px;">local_florist</mat-icon>
+                      <span>Plant Care Tips!</span>
+                    </mat-panel-description>
+                  </mat-expansion-panel-header>
+                  <div style="display:flex">
+                    <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                    <span style="font-weight:bold">SOIL</span>
+                  </div>
+                    This plant can grow in different kinds of soil but make sure you will use a well drained soil.<br><hr>
+                    <div style="display:flex">
+                      <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                      <span style="font-weight:bold">SUNLIGHT</span>
+                    </div>
+                    Golden Crinum lily wants full sunlight to turns its leaves into golden yellow. However, 
+                    Brings it indoors will maintain its fresh green leaves.
+                    <br><hr>
+                    <div style="display:flex">
+                      <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                      <span style="font-weight:bold">WATER</span>
+                    </div>
+                    Water only when the topmost soil is dry, Also do misting of water as needed to remove dirts.
+                </mat-expansion-panel>
+              </mat-accordion>
+                <!-- <mat-card-actions>
+                  <button mat-button>LIKE</button>
+                  <button mat-button>SHARE</button>
+                </mat-card-actions> -->
+              </mat-card>
+        </div>
         <div class="col-sm-4">
             <mat-card class="example-card">
                 <mat-card-header>
@@ -248,26 +584,69 @@
                       <td width="10%"><mat-icon class="c-default" matTooltip="Item Code" aria-hidden="false" aria-label="Example home icon">local_mall</mat-icon></td>
                       <td width="65%"><span> <h6><b>ROSTRATA001</b></h6> </span></td>
                       <td width="35%">
-                        <p><span class="badge-limited">Limited Stocks</span></p>
+                        <p><span class="badge-stock">10⁺ Items available</span></p>
                       </td>
                     </tr>
                     <tr>
                       <td><mat-icon class="c-default" matTooltip="Price" aria-hidden="false" aria-label="Example home icon">local_offer</mat-icon></td>
                       <td><span> <h6><b>300.00</b></h6> </span></td>
                     </tr>
+                    <tr>
+                      <td><span>Benefits:</span></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td><mat-icon class="c-success">done</mat-icon></td>
+                      <td colspan="2"><span>Natural air cooler.</span></td>
+                    </tr>
+                    <tr>
+                      <td><mat-icon class="c-success">done</mat-icon></td>
+                      <td colspan="2"><span>Flowering plant.</span></td>
+                    </tr>
+                    <tr>
+                      <td><mat-icon class="c-success">done</mat-icon></td>
+                      <td colspan="2"><span>For tropical or jungle inspired garden.</span></td>
+                    </tr>
+                    <tr>
+                      <td><mat-icon class="c-error">clear</mat-icon></td>
+                      <td colspan="2"><span>Keep away from pets.</span></td>
+                    </tr>
                   </table>
-
-                  <p>
-                    Also known as Birds of Paradise - Falling birds or Parrots beak because of its beautiful flower,
-                    It is a tropical plant and can grow 3 meters or more when it planted specially on the ground.
-                  </p>
                 </mat-card-content>
+                <mat-accordion style="border:none;box-shadow: none;">
+                  <mat-expansion-panel>
+                  <mat-expansion-panel-header>
+                    <mat-panel-title>
+                    </mat-panel-title>
+                    <mat-panel-description>
+                      <mat-icon style="color:gray;margin-right:5px;">local_florist</mat-icon>
+                      <span>Plant Care Tips!</span>
+                    </mat-panel-description>
+                  </mat-expansion-panel-header>
+                  <div style="display:flex">
+                    <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                    <span style="font-weight:bold">SOIL</span>
+                  </div>
+                    This plant can grow in different kinds of soil but make sure you will use a well drained soil.<br><hr>
+                    <div style="display:flex">
+                      <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                      <span style="font-weight:bold">SUNLIGHT</span>
+                    </div>
+                    You can place it to indirect sunlight part of your home. too much sun exposure might cause its leaves become droopy 
+                    and colored yellow.
+                    <br><hr>
+                    <div style="display:flex">
+                      <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                      <span style="font-weight:bold">WATER</span>
+                    </div>
+                    Water at least twice a week, Also do misting of water as needed to remove dirts.
+                </mat-expansion-panel>
+              </mat-accordion>
                 <!-- <mat-card-actions>
                   <button mat-button>LIKE</button>
                   <button mat-button>SHARE</button>
                 </mat-card-actions> -->
               </mat-card>
-              
         </div>
         <div class="col-sm-4">
             <mat-card class="example-card">
@@ -290,13 +669,138 @@
                       <td><mat-icon class="c-default" matTooltip="Price" aria-hidden="false" aria-label="Example home icon">local_offer</mat-icon></td>
                       <td><span> <h6><b>100.00</b></h6> </span></td>
                     </tr>
+                    <tr>
+                      <td><span>Benefits:</span></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td><mat-icon class="c-success">done</mat-icon></td>
+                      <td colspan="2"><span>Improves air quality.</span></td>
+                    </tr>
+                    <tr>
+                      <td><mat-icon class="c-success">done</mat-icon></td>
+                      <td colspan="2"><span>Brings fresh ambiance to your home.</span></td>
+                    </tr>
+                     <tr>
+                      <td><mat-icon class="c-success">done</mat-icon></td>
+                      <td colspan="2"><span>Ideal Houseplant.</span></td>
+                    </tr>
+                    <tr>
+                      <td><mat-icon class="c-error">clear</mat-icon></td>
+                      <td colspan="2"><span>Keep away from pets.</span></td>
+                    </tr>
                   </table>
-
-                  <p>
-                    Philodendron Orlando is a trailing plant, It can be outdoors but indirect sunlight to maintain its
-                    bright color leaves.
-                  </p>
                 </mat-card-content>
+                <mat-accordion style="border:none;box-shadow: none;">
+                  <mat-expansion-panel>
+                  <mat-expansion-panel-header>
+                    <mat-panel-title>
+                    </mat-panel-title>
+                    <mat-panel-description>
+                      <mat-icon style="color:gray;margin-right:5px;">local_florist</mat-icon>
+                      <span>Plant Care Tips!</span>
+                    </mat-panel-description>
+                  </mat-expansion-panel-header>
+                  <div style="display:flex">
+                    <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                    <span style="font-weight:bold">SOIL</span>
+                  </div>
+                    This plant can grow in different kinds of soil but make sure you will use a well drained soil.<br><hr>
+                    <div style="display:flex">
+                      <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                      <span style="font-weight:bold">SUNLIGHT</span>
+                    </div>
+                    Philodendron Orlando can grow indoors and outdoors but indirect sunlight. to maintain its lively leaves.
+                    <br><hr>
+                    <div style="display:flex">
+                      <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                      <span style="font-weight:bold">WATER</span>
+                    </div>
+                    Water only when the topmost soil is dry, Also do misting of water as needed to remove dirts.
+                </mat-expansion-panel>
+              </mat-accordion>
+                <!-- <mat-card-actions>
+                  <button mat-button>LIKE</button>
+                  <button mat-button>SHARE</button>
+                </mat-card-actions> -->
+              </mat-card>
+        </div>
+    </div>
+     <div class="row p-t-30">
+          <div class="col-sm-4">
+            <mat-card class="example-card">
+                <mat-card-header>
+                  <!-- <div mat-card-avatar class="example-header-image"></div> -->
+                  <mat-card-title><h4>Golden Pothos</h4></mat-card-title>
+                  <mat-card-subtitle><h6>Indoor Plant</h6></mat-card-subtitle>
+                </mat-card-header>
+                <img mat-card-image src="assets/on-the-shop/pothos001.jpg">
+                <mat-card-content>
+                  <table>
+                    <tr>
+                      <td width="10%"><mat-icon class="c-default" matTooltip="Item Code" aria-hidden="false" aria-label="Example home icon">local_mall</mat-icon></td>
+                      <td width="65%"><span> <h6><b>POTHOS001</b></h6> </span></td>
+                      <td width="35%">
+                        <p><span class="badge-stock">10⁺ Items available</span></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><mat-icon class="c-default" matTooltip="Price" aria-hidden="false" aria-label="Example home icon">local_offer</mat-icon></td>
+                      <td><span> <h6><b>100.00</b></h6> </span></td>
+                    </tr>
+                    <tr>
+                      <td><span>Benefits:</span></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td><mat-icon class="c-success">done</mat-icon></td>
+                      <td colspan="2"><span>Natural air cooler.</span></td>
+                    </tr>
+                    <tr>
+                      <td><mat-icon class="c-success">done</mat-icon></td>
+                      <td colspan="2"><span>Improves air quality.</span></td>
+                    </tr>
+                    <tr>
+                      <td><mat-icon class="c-success">done</mat-icon></td>
+                      <td colspan="2"><span>For tropical or jungle inspired garden.</span></td>
+                    </tr>
+                    <tr>
+                      <td><mat-icon class="c-error">clear</mat-icon></td>
+                      <td colspan="2"><span>Keep away from pets.</span></td>
+                    </tr>
+                  </table>
+                </mat-card-content>
+                <mat-accordion style="border:none;box-shadow: none;">
+                  <mat-expansion-panel>
+                  <mat-expansion-panel-header>
+                    <mat-panel-title>
+                    </mat-panel-title>
+                    <mat-panel-description>
+                      <mat-icon style="color:gray;margin-right:5px;">local_florist</mat-icon>
+                      <span>Plant Care Tips!</span>
+                    </mat-panel-description>
+                  </mat-expansion-panel-header>
+                  <div style="display:flex">
+                    <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                    <span style="font-weight:bold">SOIL</span>
+                  </div>
+                    This plant can grow in different kinds of soil but make sure you will use a well drained soil. It can Also
+                    grow in water just submerge the stem with roots in water.<br><hr>
+                    <div style="display:flex">
+                      <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                      <span style="font-weight:bold">SUNLIGHT</span>
+                    </div>
+                    Golden pothos can grow in minimal sunlight you can even put it in bedroom or restroom but bring it to
+                    sunlight every other day.
+                    <br><hr>
+                    <div style="display:flex">
+                      <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                      <span style="font-weight:bold">WATER</span>
+                    </div>
+                    Golden pothos wants moist to wet soil to maintain its alive and green leaves, lacks of water might cause drooping of leaves,
+                    Also do misting of water as needed to remove dirts.
+                </mat-expansion-panel>
+              </mat-accordion>
                 <!-- <mat-card-actions>
                   <button mat-button>LIKE</button>
                   <button mat-button>SHARE</button>
@@ -307,29 +811,148 @@
             <mat-card class="example-card">
                 <mat-card-header>
                   <!-- <div mat-card-avatar class="example-header-image"></div> -->
-                  <mat-card-title><h4>Golden Pothos</h4></mat-card-title>
+                  <mat-card-title><h4>Fishtail Fern</h4></mat-card-title>
                   <mat-card-subtitle><h6>Indoor Plant</h6></mat-card-subtitle>
                 </mat-card-header>
-                <img mat-card-image src="assets/on-the-shop/pothos.jpg">
+                <img mat-card-image src="assets/on-the-shop/fishtail001.jpg">
                 <mat-card-content>
                   <table>
                     <tr>
                       <td width="10%"><mat-icon class="c-default" matTooltip="Item Code" aria-hidden="false" aria-label="Example home icon">local_mall</mat-icon></td>
-                      <td width="65%"><span> <h6><b>POTHOS001</b></h6> </span></td>
+                      <td width="65%"><span> <h6><b>FISHTAIL001</b></h6> </span></td>
                       <td width="35%">
-                        <p><span class="badge-stock">5 Items available</span></p>
+                        <p><span class="badge-limited">Limited Stocks</span></p>
                       </td>
                     </tr>
                     <tr>
                       <td><mat-icon class="c-default" matTooltip="Price" aria-hidden="false" aria-label="Example home icon">local_offer</mat-icon></td>
-                      <td><span> <h6><b>100.00</b></h6> </span></td>
+                      <td><span> <h6><b>480.00</b></h6> </span></td>
+                    </tr>
+                    <tr>
+                      <td><span>Benefits:</span></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td><mat-icon class="c-success">done</mat-icon></td>
+                      <td colspan="2"><span>Natural air purifier.</span></td>
+                    </tr>
+                    <tr>
+                      <td><mat-icon class="c-success">done</mat-icon></td>
+                      <td colspan="2"><span>Improves air quality.</span></td>
+                    </tr>
+                    <tr>
+                      <td><mat-icon class="c-success">done</mat-icon></td>
+                      <td colspan="2"><span>Brings fresh ambiance to your home.</span></td>
+                    </tr>
+                    <tr>
+                      <td><mat-icon class="c-success">done</mat-icon></td>
+                      <td colspan="2"><span>Safe for pets.</span></td>
                     </tr>
                   </table>
-                  
-                  <p>
-                    Golden Pothos is a trailing plant that can grow indoor, Can place in bright sunlight of your home.
-                  </p>
                 </mat-card-content>
+                <mat-accordion style="border:none;box-shadow: none;">
+                  <mat-expansion-panel>
+                  <mat-expansion-panel-header>
+                    <mat-panel-title>
+                    </mat-panel-title>
+                    <mat-panel-description>
+                      <mat-icon style="color:gray;margin-right:5px;">local_florist</mat-icon>
+                      <span>Plant Care Tips!</span>
+                    </mat-panel-description>
+                  </mat-expansion-panel-header>
+                  <div style="display:flex">
+                    <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                    <span style="font-weight:bold">SOIL</span>
+                  </div>
+                  Recommended to use Coco peat with Vermicast as soil mix for different kinds of ferns.<br><hr>
+                  <div style="display:flex">
+                    <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                    <span style="font-weight:bold">SUNLIGHT</span>
+                  </div>
+                  Ideal sunlight exposure for different kinds of ferns is between 07:00 AM to 10:00 AM to grow healthier with lush green leaves.<br><hr>
+                  <div style="display:flex">
+                    <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                    <span style="font-weight:bold">WATER</span>
+                  </div>
+                  Water at least once a week, Also do misting of water as needed to remove dirts.
+                </mat-expansion-panel>
+              </mat-accordion>
+                <!-- <mat-card-actions>
+                  <button mat-button>LIKE</button>
+                  <button mat-button>SHARE</button>
+                </mat-card-actions> -->
+              </mat-card>
+        </div>
+        <div class="col-sm-4">
+            <mat-card class="example-card">
+                <mat-card-header>
+                  <!-- <div mat-card-avatar class="example-header-image"></div> -->
+                  <mat-card-title><h4>Fishtail Fern</h4></mat-card-title>
+                  <mat-card-subtitle><h6>Indoor Plant</h6></mat-card-subtitle>
+                </mat-card-header>
+                <img mat-card-image src="assets/on-the-shop/fishtail002.jpg">
+                <mat-card-content>
+                  <table>
+                    <tr>
+                      <td width="10%"><mat-icon class="c-default" matTooltip="Item Code" aria-hidden="false" aria-label="Example home icon">local_mall</mat-icon></td>
+                      <td width="65%"><span> <h6><b>FISHTAIL002</b></h6> </span></td>
+                      <td width="35%">
+                        <p><span class="badge-limited">Limited Stocks</span></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><mat-icon class="c-default" matTooltip="Price" aria-hidden="false" aria-label="Example home icon">local_offer</mat-icon></td>
+                      <td><span> <h6><b>480.00</b></h6> </span></td>
+                    </tr>
+                    <tr>
+                      <td><span>Benefits:</span></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td><mat-icon class="c-success">done</mat-icon></td>
+                      <td colspan="2"><span>Natural air purifier.</span></td>
+                    </tr>
+                    <tr>
+                      <td><mat-icon class="c-success">done</mat-icon></td>
+                      <td colspan="2"><span>Improves air quality.</span></td>
+                    </tr>
+                    <tr>
+                      <td><mat-icon class="c-success">done</mat-icon></td>
+                      <td colspan="2"><span>Brings fresh ambiance to your home.</span></td>
+                    </tr>
+                    <tr>
+                      <td><mat-icon class="c-success">done</mat-icon></td>
+                      <td colspan="2"><span>Safe for pets.</span></td>
+                    </tr>
+                  </table>
+                </mat-card-content>
+                <mat-accordion style="border:none;box-shadow: none;">
+                  <mat-expansion-panel>
+                  <mat-expansion-panel-header>
+                    <mat-panel-title>
+                    </mat-panel-title>
+                    <mat-panel-description>
+                      <mat-icon style="color:gray;margin-right:5px;">local_florist</mat-icon>
+                      <span>Plant Care Tips!</span>
+                    </mat-panel-description>
+                  </mat-expansion-panel-header>
+                  <div style="display:flex">
+                    <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                    <span style="font-weight:bold">SOIL</span>
+                  </div>
+                  Recommended to use Coco peat with Vermicast as soil mix for different kinds of ferns.<br><hr>
+                  <div style="display:flex">
+                    <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                    <span style="font-weight:bold">SUNLIGHT</span>
+                  </div>
+                  Ideal sunlight exposure for different kinds of ferns is between 07:00 AM to 10:00 AM to grow healthier with lush green leaves.<br><hr>
+                  <div style="display:flex">
+                    <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                    <span style="font-weight:bold">WATER</span>
+                  </div>
+                  Water at least once a week, Also do misting of water as needed to remove dirts.
+                </mat-expansion-panel>
+              </mat-accordion>
                 <!-- <mat-card-actions>
                   <button mat-button>LIKE</button>
                   <button mat-button>SHARE</button>
@@ -337,5 +960,159 @@
               </mat-card>
         </div>
     </div>
+    <div class="row p-t-30">
+      <div class="col-sm-4">
+        <mat-card class="example-card">
+            <mat-card-header>
+              <!-- <div mat-card-avatar class="example-header-image"></div> -->
+              <mat-card-title><h4>Peruvian Fern</h4></mat-card-title>
+              <mat-card-subtitle><h6>Ornamental Plant</h6></mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src="assets/on-the-shop/peruvian002.jpg">
+            <mat-card-content>
+              <table>
+                <tr>
+                  <td width="10%"><mat-icon class="c-default" matTooltip="Item Code" aria-hidden="false" aria-label="Example home icon">local_mall</mat-icon></td>
+                  <td width="65%"><span> <h6><b>PERUVIAN002</b></h6> </span></td>
+                  <td width="35%">
+                    <p><span class="badge-limited">Limited Stocks</span></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td><mat-icon class="c-default" matTooltip="Price" aria-hidden="false" aria-label="Example home icon">local_offer</mat-icon></td>
+                  <td><span> <h6><b>350.00</b></h6> </span></td>
+                </tr>
+                <tr>
+                  <td><span>Benefits:</span></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><mat-icon class="c-success">done</mat-icon></td>
+                  <td colspan="2"><span>Natural air purifier.</span></td>
+                </tr>
+                <tr>
+                  <td><mat-icon class="c-success">done</mat-icon></td>
+                  <td colspan="2"><span>Improves air quality.</span></td>
+                </tr>
+                <tr>
+                  <td><mat-icon class="c-success">done</mat-icon></td>
+                  <td colspan="2"><span>Brings fresh ambiance to your home.</span></td>
+                </tr>
+                <tr>
+                  <td><mat-icon class="c-success">done</mat-icon></td>
+                  <td colspan="2"><span>Safe for pets.</span></td>
+                </tr>
+              </table>
+            </mat-card-content>
+            <mat-accordion style="border:none;box-shadow: none;">
+              <mat-expansion-panel>
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                </mat-panel-title>
+                <mat-panel-description>
+                  <mat-icon style="color:gray;margin-right:5px;">local_florist</mat-icon>
+                  <span>Plant Care Tips!</span>
+                </mat-panel-description>
+              </mat-expansion-panel-header>
+              <div style="display:flex">
+                <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                <span style="font-weight:bold">SOIL</span>
+              </div>
+              Recommended to use Coco peat with Vermicast as soil mix for different kinds of ferns.<br><hr>
+              <div style="display:flex">
+                <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                <span style="font-weight:bold">SUNLIGHT</span>
+              </div>
+              Ideal sunlight exposure for different kinds of ferns is between 07:00 AM to 10:00 AM to grow healthier with lush green leaves.<br><hr>
+              <div style="display:flex">
+                <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                <span style="font-weight:bold">WATER</span>
+              </div>
+              Water at least once a week, Also do misting of water as needed to remove dirts.
+            </mat-expansion-panel>
+          </mat-accordion>
+            <!-- <mat-card-actions>
+              <button mat-button>LIKE</button>
+              <button mat-button>SHARE</button>
+            </mat-card-actions> -->
+          </mat-card>
+    </div>
+    <div class="col-sm-4">
+        <mat-card class="example-card">
+            <mat-card-header>
+              <!-- <div mat-card-avatar class="example-header-image"></div> -->
+              <mat-card-title><h4>Peruvian Fern</h4></mat-card-title>
+              <mat-card-subtitle><h6>Ornamental Plant</h6></mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src="assets/on-the-shop/peruvian003.jpg">
+            <mat-card-content>
+              <table>
+                <tr>
+                  <td width="10%"><mat-icon class="c-default" matTooltip="Item Code" aria-hidden="false" aria-label="Example home icon">local_mall</mat-icon></td>
+                  <td width="65%"><span> <h6><b>PERUVIAN003</b></h6> </span></td>
+                  <td width="35%">
+                    <p><span class="badge-limited">Limited Stocks</span></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td><mat-icon class="c-default" matTooltip="Price" aria-hidden="false" aria-label="Example home icon">local_offer</mat-icon></td>
+                  <td><span> <h6><b>350.00</b></h6> </span></td>
+                </tr>
+                <tr>
+                  <td><span>Benefits:</span></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><mat-icon class="c-success">done</mat-icon></td>
+                  <td colspan="2"><span>Natural air purifier.</span></td>
+                </tr>
+                <tr>
+                  <td><mat-icon class="c-success">done</mat-icon></td>
+                  <td colspan="2"><span>Improves air quality.</span></td>
+                </tr>
+                <tr>
+                  <td><mat-icon class="c-success">done</mat-icon></td>
+                  <td colspan="2"><span>Brings fresh ambiance to your home.</span></td>
+                </tr>
+                <tr>
+                  <td><mat-icon class="c-success">done</mat-icon></td>
+                  <td colspan="2"><span>Safe for pets.</span></td>
+                </tr>
+              </table>
+            </mat-card-content>
+            <mat-accordion style="border:none;box-shadow: none;">
+              <mat-expansion-panel>
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                </mat-panel-title>
+                <mat-panel-description>
+                  <mat-icon style="color:gray;margin-right:5px;">local_florist</mat-icon>
+                  <span>Plant Care Tips!</span>
+                </mat-panel-description>
+              </mat-expansion-panel-header>
+              <div style="display:flex">
+                <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                <span style="font-weight:bold">SOIL</span>
+              </div>
+              Recommended to use Coco peat with Vermicast as soil mix for different kinds of ferns.<br><hr>
+              <div style="display:flex">
+                <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                <span style="font-weight:bold">SUNLIGHT</span>
+              </div>
+              Ideal sunlight exposure for different kinds of ferns is between 07:00 AM to 10:00 AM to grow healthier with lush green leaves.<br><hr>
+              <div style="display:flex">
+                <mat-icon style="color:gray;margin-right:5px;">favorite_border</mat-icon>
+                <span style="font-weight:bold">WATER</span>
+              </div>
+              Water at least once a week, Also do misting of water as needed to remove dirts.
+            </mat-expansion-panel>
+          </mat-accordion>
+            <!-- <mat-card-actions>
+              <button mat-button>LIKE</button>
+              <button mat-button>SHARE</button>
+            </mat-card-actions> -->
+          </mat-card>
+    </div>
+  </div>
     </div>
 </body>

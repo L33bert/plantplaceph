@@ -10,6 +10,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatBadgeModule } from '@angular/material/badge';
+import { MatExpansionModule } from '@angular/material/expansion';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -51,7 +52,8 @@ import { PlantspotmodalComponent } from './plantspotmodal/plantspotmodal.compone
     MatCardModule,
     MatTooltipModule,
     MatDialogModule,
-    MatBadgeModule
+    MatBadgeModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent, HeaderComponent, CarouselComponent, OnshopComponent, PlantspotComponent, GardeningComponent, ConnectComponent, FooterComponent, HomeComponent, ModalComponent],

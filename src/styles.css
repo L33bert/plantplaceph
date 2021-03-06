@@ -30,6 +30,14 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     color: rgb(6, 143, 143);
 }
 
+.c-success {
+    color: rgb(104, 141, 56);
+}
+
+.c-error {
+    color: rgb(180, 48, 48);
+}
+
 .bgc-default {
     color: rgb(6, 143, 143);
 }
