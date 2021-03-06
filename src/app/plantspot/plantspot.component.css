@@ -37,10 +37,10 @@ body {
 .index-card {
     border-radius:5%;
     border:none;
-    cursor:pointer;
+    /* cursor:pointer; */
     background-color:black;
 }
 
-.index-card:hover {
+/* .index-card:hover {
     opacity:90%;
-}
+} */
