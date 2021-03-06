@@ -23,7 +23,7 @@ body {
   }
   
   .example-header-image {
-    background-image: url('src/assets/tag.png');
+    /* background-image: url('src/assets/tag.png'); */
     background-position: center; 
     background-size: cover;
     background-repeat: no-repeat; 
