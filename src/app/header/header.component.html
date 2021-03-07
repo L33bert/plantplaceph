@@ -1,9 +1,7 @@
 <mat-toolbar id="toolbar" style="background-color:white;height: 18%;">
-    <div>
-      <div id="headerLogo" routerLink="/plantplaceph" routerLinkActive="active"></div>
-    </div>
-    <div style="float:right">
-      <div class="nav">
+ 
+      <!-- <div id="headerLogo" routerLink="/plantplaceph" routerLinkActive="active"></div> -->
+      <!-- <div class="nav">
         <ul>
           <li routerLink="/plantplaceph" routerLinkActive="active"><a >Home</a></li>
           <li routerLink="/plant-place-store" routerLinkActive="active"><a >Plant Place Store</a></li>
@@ -11,8 +9,35 @@
           <li routerLink="/home-gardening" routerLinkActive="active"><a >Home Gardening</a></li>
           <li routerLink="/stay-connected" routerLinkActive="active"><a >Stay Connected</a></li>
         </ul>
+      </div> -->
+    
+      <div style="margin:auto;display:flex">
+       
+          <button id="home-gardening"class="btn" routerLink="/plantplaceph" routerLinkActive="active" mat-icon-button matTooltip="Home">
+            <mat-icon>home</mat-icon>
+          </button>
+    
+          <button id="store" class="btn" routerLink="/plant-place-store" routerLinkActive="active" mat-icon-button matTooltip="Plant Place Store">
+            <mat-icon>store</mat-icon>
+          </button>
+      
+       
+          <button id="gallery" class="btn" routerLink="/plants-gallery" routerLinkActive="active" mat-icon-button matTooltip="Plants Gallery">
+            <mat-icon>collections</mat-icon>
+          </button>
+        
+       
+          <button id="gardening" class="btn" routerLink="/home-gardening" routerLinkActive="active" mat-icon-button matTooltip="Home Gardening">
+            <mat-icon>filter_vintage</mat-icon>
+          </button>
+       
+      
+          <button id="connected" class="btn" routerLink="/stay-connected" routerLinkActive="active" mat-icon-button matTooltip="Stay Connected">
+            <mat-icon>touch_app</mat-icon>
+          </button>
+       
       </div>
-    </div>
+
 </mat-toolbar>
 <!-- <div id="bottom-border">
 </div> -->
